@@ -1,60 +1,48 @@
+<!-- Check wether a number is prime or not
+int $num
+int $x
+return Boolean -->
 <?php
-//Documentation
-//phpDoc
-// PHP code to check wether a number is prime or Not
-/*function to check the number is Prime or Not
-* Function pass by value
-*@param int $n
-*@param int $x
-*return bool
- */
-function isPrime($n)
-{
- for($x=2; $x<$n; $x++)
-   {
-      if($n %$x ==0)
-	      {
-		   return 0;
-		  }
-    }
-  return 1;
-}
-  /* Calling the function with passing a value and assigning the function in to a parameter
-  * We will print the number prime or not
-  *@param int $a
-   */
-$a = isPrime(4);
-if ($a==0)
-  //Here echo command is used to print
-echo 'This is not a Prime Number'."\n";
-else
-echo 'This is a Prime Number'."\n";
-/* PHP code to find the max element from an array
-*function pass by value
-* @param int $array
-* @param int $n
-* @param int $i
-* @param int $max
-* return int $max
-*/
+class math{
+ function IsPrime($n) {
+     for($x=2; $x<$n; $x++) {
+       if($n % $x ==0) 
+       { 
+         return false;
+        }
+     } 
+     return true;
+ }
+ $a = IsPrime(13);
+ echo $a ? 'This is a Prime Number.' :  'This is not a Prime Number.';
+
+// Calling the function with passing five index value in array
+//int $n
+//int $array
+//int $i
+//int $max
+//return max element
+
 function maxElement($array)
-{
+{ $array = array(12, 50, 36);
    $n = count($array);
    $max = $array[0];
+   
    for ($i = 1; $i < $n; $i++)
-    	if ($max < $array[$i])
+      if ($max < $array[$i])
            $max = $array[$i];
-    return $max;
 
 
+  echo "Max Element:$max";
 }
-/* calling the function with passing four index value in array
-* @param int $array
-* print maxElement
-* print call_user_func maxElement
-*/
-$array = array(1, 24, 73, 55, 15);
-echo 'Max Element';
-echo (maxElement($array));
+}
+
+//int obj
+//obj assigning function
+//pass prime number
+//pass max element
+$obj = new math();
+$obj->primeNumber(4);
+$obj->maxElement(0);
 
 ?>
