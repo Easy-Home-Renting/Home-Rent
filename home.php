@@ -49,7 +49,7 @@
                             <!-- img 1 -->
                             <li data-transition="fade" data-slotamount="2" data-masterspeed="500" data-thumb="homeslider_thumb1.jpg"  data-saveperformance="on"  data-title="Intro Slide">
                                 <!-- MAIN IMAGE -->
-                                <img src="images/bg/2.jpg"  alt="slidebg1" data-lazyload="images/bg/2.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img src="images/bg/prd6.jpg"  alt="slidebg1" data-lazyload="images/bg/prd6.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <!-- LAYERS -->
                                 <div class="tp-caption customin fadeout tp-resizeme rs-parallaxlevel-10"
                                     data-x="center"
@@ -121,7 +121,8 @@
                                 font-size: 12px;
                                 display:table;
                                 font-weight: bold;
-                                text-transform:uppercase;padding:0 40px;background:#000000;position:relative;z-index:77;">
+                                text-transform:uppercase;padding:0 40px;background:#000000;position:relative;z-index:77;
+                                background-color:#02111B;">
                                    Room
                                 </a>
                             </li>
@@ -129,7 +130,7 @@
                             <!-- img 2 -->
                             <li data-transition="fade" data-slotamount="2" data-masterspeed="500" data-thumb="homeslider_thumb1.jpg"  data-saveperformance="on"  data-title="Intro Slide">
                                 <!-- MAIN IMAGE -->
-                                <img src="bg/2.jpg"  alt="slidebg1" data-lazyload="images/bg/1.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img src="images/bg/prd4.jpg"  alt="slidebg1" data-lazyload="images/bg/prd4.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <!-- LAYERS -->
                                 <div class="tp-caption customin fadeout tp-resizeme rs-parallaxlevel-10"
                                     data-x="center"
@@ -204,7 +205,8 @@
                                 font-size: 12px;
                                 display:table;
                                 font-weight: bold;
-                                text-transform:uppercase;padding:0 40px;background:#000000;position:relative;z-index:77;">
+                                text-transform:uppercase;padding:0 40px;background:#000000;position:relative;z-index:77;
+                                background-color:#02111B;">
                                 Flat
                                 </a>
                             </li>
@@ -212,7 +214,7 @@
                             <!-- img 3 -->
                             <li data-transition="fade" data-slotamount="2" data-masterspeed="500" data-thumb="homeslider_thumb1.jpg"  data-saveperformance="on"  data-title="Intro Slide">
                                 <!-- MAIN IMAGE -->
-                                <img src="bg/2.jpg"  alt="slidebg1" data-lazyload="images/bg/3.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img src="images/bg/prd1.jpg"  alt="slidebg1" data-lazyload="images/bg/prd1.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <!-- LAYERS -->
                                 <div class="tp-caption customin fadeout tp-resizeme rs-parallaxlevel-10"
                                     data-x="center"
@@ -287,7 +289,8 @@
                                 font-size: 12px;
                                 display:table;
                                 font-weight: bold;
-                                text-transform:uppercase;padding:0 40px;background:#000000;position:relative;z-index:77;">
+                                text-transform:uppercase;padding:0 40px;background:#000000;position:relative;z-index:77;
+                                background-color:#02111B;">
                                 Roommate
                                 </a>
                             </li>
@@ -298,7 +301,7 @@
             </div>
 
             <!-- PRODUCTS -->
-            <div class="container padding40">
+            <div class="container padding40" style="font-weight:bold;">
                 <div class="row">
 
                 <div class="product-carousel3">
@@ -308,14 +311,14 @@
                             <div class="item-thumb">
                                 <span class="badge new">New</span>
                                 <img src="images/bg/prd1.jpg" class="img-responsive" alt=""/>
-                                <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal" href="single-product.php"></div>
                                 <div class="product-overlay">
-                                    <a href="#" class="likeitem fa fa-heart-o"></a>
+                                    <a href="single-product.php" class="likeitem fa fa-heart-o"></a>
                                 </div>
                             </div>
-                            <div style="text-align: center;">
+                            <div style="text-align: center;  font-weight:bold;">
                                 <h3>Single Room</h3>
-                                <p style="font-size: 120%;">5000 $</p>
+                                <p style="font-size: 120%;">5000 BDT</p>
                             </div>
                         </div>
                     </div>
@@ -324,15 +327,15 @@
                         <div class="product-item">
                             <div class="item-thumb">
                                 <span class="badge new">New</span>
-                                <img src="images/bg/prd1.jpg" class="img-responsive" alt=""/>
+                                <img src="images/bg/prd2.jpg" class="img-responsive" alt=""/>
                                 <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
                                 <div class="product-overlay">
                                     <a href="#" class="likeitem fa fa-heart-o"></a>
                                 </div>
                             </div>
                             <div style="text-align: center;">
-                                <h3>Single Room</h3>
-                                <p style="font-size: 120%;">5000 $</p>
+                                <h3>Flat</h3>
+                                <p style="font-size: 120%;">20,000 BDT</p>
                             </div>
                         </div>
                     </div>
@@ -341,15 +344,15 @@
                         <div class="product-item">
                             <div class="item-thumb">
                                 <span class="badge new">New</span>
-                                <img src="images/bg/prd1.jpg" class="img-responsive" alt=""/>
+                                <img src="images/bg/prd3.jpg" class="img-responsive" alt=""/>
                                 <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
                                 <div class="product-overlay">
                                     <a href="#" class="likeitem fa fa-heart-o"></a>
                                 </div>
                             </div>
                             <div style="text-align: center;">
-                                <h3>Single Room</h3>
-                                <p style="font-size: 120%;">5000 $</p>
+                                <h3>Roommate</h3>
+                                <p style="font-size: 120%;">6000 BDT</p>
                             </div>
                         </div>
                     </div>
@@ -357,16 +360,16 @@
                     <div class="col-md-4">
                         <div class="product-item">
                             <div class="item-thumb">
-                                <span class="badge new">New</span>
-                                <img src="images/bg/prd1.jpg" class="img-responsive" alt=""/>
+                                <!-- <span class="badge new">New</span> -->
+                                <img src="images/bg/prd4.jpg" class="img-responsive" alt=""/>
                                 <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
                                 <div class="product-overlay">
                                     <a href="#" class="likeitem fa fa-heart-o"></a>
                                 </div>
                             </div>
                             <div style="text-align: center;">
-                                <h3>Single Room</h3>
-                                <p style="font-size: 120%;">5000 $</p>
+                                <h3>Double Room</h3>
+                                <p style="font-size: 120%;">11,000 BDT</p>
                             </div>
                         </div>
                     </div>
@@ -374,8 +377,8 @@
                     <div class="col-md-4">
                         <div class="product-item">
                             <div class="item-thumb">
-                                <span class="badge new">New</span>
-                                <img src="images/bg/prd1.jpg" class="img-responsive" alt=""/>
+                                <!-- <span class="badge new">New</span> -->
+                                <img src="images/bg/prd5.jpg" class="img-responsive" alt=""/>
                                 <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
                                 <div class="product-overlay">
                                     <a href="#" class="likeitem fa fa-heart-o"></a>
@@ -383,7 +386,41 @@
                             </div>
                             <div style="text-align: center;">
                                 <h3>Single Room</h3>
-                                <p style="font-size: 120%;">5000 $</p>
+                                <p style="font-size: 120%;">5000 BDT</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-item">
+                            <div class="item-thumb">
+                                <!-- <span class="badge new">New</span> -->
+                                <img src="images/bg/prd6.jpg" class="img-responsive" alt=""/>
+                                <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                <div class="product-overlay">
+                                    <a href="#" class="likeitem fa fa-heart-o"></a>
+                                </div>
+                            </div>
+                            <div style="text-align: center;">
+                                <h3>Double Room</h3>
+                                <p style="font-size: 120%;">12,000 BDT</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="product-item">
+                            <div class="item-thumb">
+                                <!-- <span class="badge new">New</span> -->
+                                <img src="images/bg/prd7.jpg" class="img-responsive" alt=""/>
+                                <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                <div class="product-overlay">
+                                    <a href="single-product.php" class="likeitem fa fa-heart-o"></a>
+                                </div>
+                            </div>
+                            <div style="text-align: center;">
+                                <h3>Flat</h3>
+                                <p style="font-size: 120%;">30,000 BDT</p>
                             </div>
                         </div>
                     </div>
@@ -395,7 +432,7 @@
 
             <div class="space20"></div>
 
-            <!-- TESTIMONIAL -->
+            <!-- TESTIMONIAL
             <div class="testimonial testimonial2 parallax-bg3">
                 <div class="container">
                     <div class="row">
@@ -442,7 +479,7 @@
                         
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- POLICY -->
 <!-- <div id="policy3" class="policy-item">
@@ -483,9 +520,9 @@
             ?> 
 
             <!-- FOOTER COPYRIGHT -->
-            <div class="footer-bottom">
+            <div class="footer-bottom" style=" background-color:#003459;">
                 <div class="container">
-                    <p style="text-align: center;">Copyright 2019 &middot; Designed & Developed by <a href="#">Mohammed Didarul Islam</a> All rights reserved</p>
+                    <p style="text-align: center;color:white;">Copyright 2019- Designed & Developed by <a href="#">Mohammed Didarul Islam</a> All rights reserved</p>
                 </div>
             </div>	
 

@@ -41,139 +41,134 @@
 
             <div class="container" style="margin-top: 20px;">
                 <div class="col-md-7">
-                    <img style="width: 100%;" src="images/bg/1.jpg" alt="">
+                    <img style="width: 100%;" src="images/bg/prd1.jpg" alt="">
                 </div>
                 <div class="col-md-5">
-                    <div style="background-color: black; padding: 15px;">
-                        <h2 style="margin-top: 5px;">Single Room</h2>
-                        <p style="margin-bottom: 0px;">500%</p>
+                    <div style="background-color: #02111B; padding: 15px;">
+                        <h2 style="margin-top: 5px; color:white;">Single Room</h2>
+                        <p style="margin-bottom: 0px;color:white;">5000 BDT</p>
                     </div>
 
-                    <div class="row" style="padding-left: 15px; margin-top: 15px;">
+                    <div class="row" style="padding-left: 15px; margin-top: 5px;">
                         <div class="col-md-4">
                             <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Address</h4>
                         </div>
                         <div class="col-md-8">
                             <p style="padding-top: 3px; margin-bottom: 3px;  ">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ea earum quibusdamquod, neque veniam.
+                            38/5, North Adabor, Alif Housing, Mohammadpur, Dhaka
                             </p>
                         </div>
                     </div>
 
                     <div class="row" style="padding-left: 15px;">
                         <div class="col-md-4">
-                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Ownername</h4>
+                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Owner Name</h4>
                         </div>
                         <div class="col-md-8">
                             <p style="padding-top: 3px; margin-bottom: 3px;  ">
-                                Nother addrdress.
+                                Mohammed Didarul Islam
                             </p>
                         </div>
                     </div>
 
                     <div class="row" style="padding-left: 15px;">
                         <div class="col-md-4">
-                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Ownername</h4>
+                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Contact</h4>
                         </div>
                         <div class="col-md-8">
                             <p style="padding-top: 3px; margin-bottom: 3px;  ">
-                                Nother addrdress.
+                               01834455279
                             </p>
                         </div>
                     </div>
 
                     <div class="row" style="padding-left: 15px;">
                         <div class="col-md-4">
-                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Ownername</h4>
+                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Vacancy From</h4>
                         </div>
                         <div class="col-md-8">
                             <p style="padding-top: 3px; margin-bottom: 3px;  ">
-                                Nother addrdress.
+                              1 January, 2020
                             </p>
                         </div>
                     </div>
 
                     <div class="row" style="padding-left: 15px;">
                         <div class="col-md-4">
-                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Ownername</h4>
+                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Advance Rent</h4>
                         </div>
                         <div class="col-md-8">
                             <p style="padding-top: 3px; margin-bottom: 3px;  ">
-                                Nother addrdress.
+                                5000 BDT
                             </p>
                         </div>
                     </div>
 
                     <div class="row" style="padding-left: 15px;">
                         <div class="col-md-4">
-                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Ownername</h4>
+                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Gas Bill</h4>
                         </div>
                         <div class="col-md-8">
                             <p style="padding-top: 3px; margin-bottom: 3px;  ">
-                                Nother addrdress.
+                                Yes
                             </p>
                         </div>
                     </div>
 
                     <div class="row" style="padding-left: 15px;">
                         <div class="col-md-4">
-                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Ownername</h4>
+                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Electricity Bill</h4>
                         </div>
                         <div class="col-md-8">
                             <p style="padding-top: 3px; margin-bottom: 3px;  ">
-                                Nother addrdress.
+                               Yes
                             </p>
                         </div>
                     </div>
 
                     <div class="row" style="padding-left: 15px;">
                         <div class="col-md-4">
-                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Ownername</h4>
+                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Security</h4>
                         </div>
                         <div class="col-md-8">
                             <p style="padding-top: 3px; margin-bottom: 3px;  ">
-                                Nother addrdress.
+                                Yes
                             </p>
                         </div>
                     </div>
 
                     <div class="row" style="padding-left: 15px;">
                         <div class="col-md-4">
-                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Ownername</h4>
+                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">CCTV Camera</h4>
                         </div>
                         <div class="col-md-8">
                             <p style="padding-top: 3px; margin-bottom: 3px;  ">
-                                Nother addrdress.
+                               No
                             </p>
                         </div>
                     </div>
 
                     <div class="row" style="padding-left: 15px;">
                         <div class="col-md-4">
-                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Ownername</h4>
+                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Lift</h4>
                         </div>
                         <div class="col-md-8">
                             <p style="padding-top: 3px; margin-bottom: 3px;  ">
-                                Nother addrdress.
+                               No
                             </p>
                         </div>
                     </div>
 
                     <div class="row" style="padding-left: 15px;">
                         <div class="col-md-4">
-                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Ownername</h4>
+                            <h4 style="margin-bottom: 3px; margin-top: 3px !important;">Generator</h4>
                         </div>
                         <div class="col-md-8">
                             <p style="padding-top: 3px; margin-bottom: 3px;  ">
-                                Nother addrdress.
+                                Yes
                             </p>
                         </div>
                     </div>
-
-                      
-
-                    
-
                 </div>
             </div>
 
@@ -259,23 +254,25 @@
             </div>
         </div>
 
-            <!-- PRODUCTS -->
-            <div class="container padding40">
+             <!-- PRODUCTS -->
+             <div class="container padding40" style="font-weight:bold;">
                 <div class="row">
 
+                <div class="product-carousel3">
+
                     <div class="col-md-4">
                         <div class="product-item">
                             <div class="item-thumb">
                                 <span class="badge new">New</span>
                                 <img src="images/bg/prd1.jpg" class="img-responsive" alt=""/>
-                                <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal" href="single-product.php"></div>
                                 <div class="product-overlay">
-                                    <a href="#" class="likeitem fa fa-heart-o"></a>
+                                    <a href="single-product.php" class="likeitem fa fa-heart-o"></a>
                                 </div>
                             </div>
-                            <div style="text-align: center;">
+                            <div style="text-align: center;  font-weight:bold;">
                                 <h3>Single Room</h3>
-                                <p style="font-size: 120%;">5000 $</p>
+                                <p style="font-size: 120%;">6000 BDT</p>
                             </div>
                         </div>
                     </div>
@@ -283,8 +280,8 @@
                     <div class="col-md-4">
                         <div class="product-item">
                             <div class="item-thumb">
-                                <span class="badge new">New</span>
-                                <img src="images/bg/prd1.jpg" class="img-responsive" alt=""/>
+                                <!-- <span class="badge new">New</span> -->
+                                <img src="images/bg/prd2.jpg" class="img-responsive" alt=""/>
                                 <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
                                 <div class="product-overlay">
                                     <a href="#" class="likeitem fa fa-heart-o"></a>
@@ -292,7 +289,7 @@
                             </div>
                             <div style="text-align: center;">
                                 <h3>Single Room</h3>
-                                <p style="font-size: 120%;">5000 $</p>
+                                <p style="font-size: 120%;">7000 BDT</p>
                             </div>
                         </div>
                     </div>
@@ -300,19 +297,74 @@
                     <div class="col-md-4">
                         <div class="product-item">
                             <div class="item-thumb">
-                                <span class="badge new">New</span>
-                                <img src="images/bg/prd1.jpg" class="img-responsive" alt=""/>
+                                <!-- <span class="badge new">New</span> -->
+                                <img src="images/bg/prd3.jpg" class="img-responsive" alt=""/>
                                 <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
                                 <div class="product-overlay">
-                                    <a href="#" class="likeitem fa fa-heart-o"></a>
+                                    <a href="single-product.php" class="likeitem fa fa-heart-o"></a>
                                 </div>
                             </div>
                             <div style="text-align: center;">
                                 <h3>Single Room</h3>
-                                <p style="font-size: 120%;">5000 $</p>
+                                <p style="font-size: 120%;">10,000 BDT</p>
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-md-4">
+                        <div class="product-item">
+                            <div class="item-thumb">
+                                <!-- <span class="badge new">New</span> -->
+                                <img src="images/bg/prd4.jpg" class="img-responsive" alt=""/>
+                                <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                <div class="product-overlay">
+                                    <a href="single-product.php" class="likeitem fa fa-heart-o"></a>
+                                </div>
+                            </div>
+                            <div style="text-align: center;">
+                                <h3>Single Room</h3>
+                                <p style="font-size: 120%;">9000 BDT</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="product-item">
+                            <div class="item-thumb">
+                                <!-- <span class="badge new">New</span> -->
+                                <img src="images/bg/prd5.jpg" class="img-responsive" alt=""/>
+                                <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                <div class="product-overlay">
+                                    <a href="single-product.php" class="likeitem fa fa-heart-o"></a>
+                                </div>
+                            </div>
+                            <div style="text-align: center;">
+                                <h3>Single Room</h3>
+                                <p style="font-size: 120%;">5500 BDT</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="product-item">
+                            <div class="item-thumb">
+                                <!-- <span class="badge new">New</span> -->
+                                <img src="images/bg/prd6.jpg" class="img-responsive" alt=""/>
+                                <div class="overlay-rmore fa fa-search quickview" data-toggle="modal" data-target="#myModal"></div>
+                                <div class="product-overlay">
+                                    <a href="single-product.php" class="likeitem fa fa-heart-o"></a>
+                                </div>
+                            </div>
+                            <div style="text-align: center;">
+                                <h3>Single Room</h3>
+                                <p style="font-size: 120%;">3000 BDT</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+</div>
 
                 </div>
             </div>
@@ -320,7 +372,7 @@
             <div class="space20"></div>
 
             <!-- TESTIMONIAL -->
-            <div class="testimonial testimonial2 parallax-bg3">
+            <!-- <div class="testimonial testimonial2 parallax-bg3">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
@@ -361,10 +413,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- POLICY -->
-            <div id="policy3" class="policy-item">
+            <!-- <div id="policy3" class="policy-item">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3 col-sm-3">
@@ -393,7 +445,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
 
             <!-- FOOTER -->
