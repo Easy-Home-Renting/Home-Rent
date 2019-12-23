@@ -209,11 +209,11 @@
         </div>
 
         <!-- PRODUCTS -->
-        <div class="container padding40" style="font-weight:bold;">
+        <div class="container padding5" style="font-weight:bold;">
         <h5 class="heading"><span>Available Houses for Rent</span></h5>
             <div class="row">
 
-                <div class="product-carousel3">
+                <div class="product-carousel3" >
 
                 <?php
                     include('partials/db_connect.php');
@@ -228,8 +228,8 @@
                                 <a href="single-product.php?id='.$row['id'].'">
                                     <div class="col-md-4">
                                         <div class="product-item">
-                                            <div class="item-thumb">
-                                                <img src="uploads/'.$row['selectImage'].'" class="img-responsive" alt="" />
+                                            <div class="item-thumb" >
+                                                <img src="uploads/'.$row['selectImage'].'" class="img-responsive" style="height:250px;" alt="" />
                                                 <div class="overlay-rmore fa fa-search quickview" data-toggle="modal"
                                                     data-target="#myModal" href="single-product.php"></div>
                                                 <div class="product-overlay">

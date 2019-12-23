@@ -46,7 +46,7 @@
         <div class="container padding40" style="font-weight:bold;">
             <div class="row">
 
-                <div class="product-carousel3">
+                <!-- <div class="product-carousel3"> -->
 
                 <?php
                     include('partials/db_connect.php');
@@ -62,7 +62,7 @@
                                     <div class="col-md-4">
                                         <div class="product-item">
                                             <div class="item-thumb">
-                                                <img src="uploads/'.$row['selectImage'].'" class="img-responsive" alt="" />
+                                                <img src="uploads/'.$row['selectImage'].'" class="img-responsive" style=" height:250px;" alt="" />
                                                 <div class="overlay-rmore fa fa-search quickview" data-toggle="modal"
                                                     data-target="#myModal" href="single-product.php"></div>
                                                 <div class="product-overlay">
@@ -85,7 +85,7 @@
 
 
 
-                </div>
+                <!-- </div> -->
 
             </div>
 
