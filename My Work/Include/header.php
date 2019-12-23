@@ -1,4 +1,4 @@
-<header style="padding-top: 20px;"> <!-- Edited-->
+<header style="padding-top: 20px; font-weight:bold;"> <!-- Edited-->
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-sm-2">
@@ -20,33 +20,7 @@
                     <span><i class="fa fa-heart-o"></i>&nbsp;&nbsp;My Favourites - 0 item(s)</span>
                     <div class="cart-info">
                         <small>You have <em class="highlight">0 selection(s)</em> in your favourites</small>
-                        <!-- <div class="ci-item">
-                            <img src="images/products/fashion/8.jpg" width="80" alt=""/>
-                            <div class="ci-item-info">
-                                <h5><a href="single-product.html">Product fashion</a></h5>
-                                <p>2 x $250.00</p>
-                                <div class="ci-edit">
-                                    <a href="#" class="edit fa fa-edit"></a>
-                                    <a href="#" class="edit fa fa-trash"></a>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="ci-item">
-                            <img src="images/products/fashion/15.jpg" width="80" alt=""/>
-                            <div class="ci-item-info">
-                                <h5><a href="single-product.html">Product fashion</a></h5>
-                                <p>2 x $250.00</p>
-                                <div class="ci-edit">
-                                    <a href="#" class="edit fa fa-edit"></a>
-                                    <a href="#" class="edit fa fa-trash"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ci-total">Subtotal: $750.00</div>
-                        <div class="cart-btn">
-                            <a href="#">View Bag</a>
-                            <a href="#">Checkout</a>
-                        </div>-->
+                        
                     </div>
                 </div>
             </div>
@@ -71,7 +45,7 @@
                         
                             <li><a href="home.php">Home</a> </li>
 
-                            <li><a href="#">About</a> </li>
+                            <li><a href="About.php">About</a> </li>
 
                             <li><a href="RentalDataEntry.php">Post Rent Ad</a> </li>
 
