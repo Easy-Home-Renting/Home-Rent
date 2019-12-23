@@ -24,6 +24,8 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <!-- CSS -->
+    
+    <link rel="stylesheet" href="css/styles.css" />
     <?php
         include "Include/style.php"
     ?>
@@ -208,62 +210,103 @@
             </div>
         </div>
 
-        <!-- PRODUCTS -->
-        <div class="container padding40" style="font-weight:bold;">
-        <h5 class="heading"><span>Available Houses for Rent</span></h5>
-            <div class="row">
+        <!-- TEAM SECTION START -->
+        <section class="container padding40">
 
-                <div class="product-carousel3">
+<div class="container wow fadeInUp" style="text-align: center;">
 
-                <?php
-                    include('partials/db_connect.php');
+    <div class="row section-heading-wrapper">
 
-                    $sql="SELECT * FROM homerent"; 
+    <h5 class="heading"><span>Project Contributors</span></h5>
         
-                    if ($result=mysqli_query($connection, $sql)) {
-                        if (mysqli_num_rows($result) > 0) {
+                           
 
-                            while($row = mysqli_fetch_assoc($result)) {
-                                echo '
-                                <a href="single-product.php?id='.$row['id'].'">
-                                    <div class="col-md-4">
-                                        <div class="product-item">
-                                            <div class="item-thumb">
-                                                <img src="uploads/'.$row['selectImage'].'" class="img-responsive" alt="" />
-                                                <div class="overlay-rmore fa fa-search quickview" data-toggle="modal"
-                                                    data-target="#myModal" href="single-product.php"></div>
-                                                <div class="product-overlay">
-                                                    <a href="single-product.php" class="likeitem fa fa-heart-o"></a>
-                                                </div>
-                                            </div>
-                                            <div style="text-align: center;  font-weight:bold;">
-                                                <h3>'. $row["roomType"] .'</h3>
-                                                <p style="font-size: 120%;">'.$row["advRent"].' BDT</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                    
-                                ';
-                            }
-                            
-                        }
-                    }
-                ?>
+    </div> <!-- end .row  -->
+
+    <div class="row" >
+
+        <div class="col-lg-3 col-md-offset-0 col-md-3 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+
+            <div class="team-layout-1">       
+
+                <figure class="team-member">
+                    <a href="#" title="Mohammed Didarul Islam">
+                        <img src="images/1.jpg"  align="middle"  alt="1" />
+                    </a>
+
+                </figure> <!-- end. team-member  -->
+
+                <article class="team-info">
+                    <h3>Mohammed Didarul Islam</h3>                                   
+                    <h4>ID - 1713066042</h4>
+                </article>
+            </div> 
+        </div> 
 
 
+        <div class="col-lg-3 col-md-offset-0 col-md-3 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
 
-                </div>
+            <div class="team-layout-1">    
+                <figure class="team-member">
+                    <a href="#" title="Zahidul Islam Nishat">
+                        <img src="images/2.jpg"  alt="2"/>
+                    </a>
 
-            </div>
+                </figure> <!-- end. team-member  -->
 
-            <div style="text-align: center;">
-                <a style="text-align: center;" class="btn btn-primary" href="allPostedAd.php">See all post</a>
-            </div>
-            
-        </div>
+                <article class="team-info">
+                    <h3>Ali Imran Sabid</h3>                              
+                    <h4>ID - 1520369042</h4>
+                </article>
+            </div> <!--  end team layout-1 -->
+        </div> <!--  end .col-md-4 col-sm-12  -->
 
-        <div class="space20"></div>
+
+        <div class="col-lg-3 col-md-offset-0 col-md-3 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+            <div class="team-layout-1">       
+                <figure class="team-member">
+                    <a href="#" title="saikat hasan">
+                        <img src="images/3.jpg" alt="3" />
+                    </a>
+                </figure> <!-- end. team-member  -->
+                <article class="team-info">
+                    <h3>Piyas</h3>                                   
+                    <h4>ID - 1521517042</h4>
+                </article>
+            </div> 
+        </div>        
+                </div>                             
+            </div> 
+        </div> 
+
+
+
+        
+    </div> 
+
+</div> 
+
+</section> 
+
+<!-- TEAM SECTION END -->
+
+  <!-- Back To Top Button  -->
+
+  <a id="backTop">Back To Top</a>
+
+<script src="js/NewJs/jquery.min.js"></script>
+<script src="js/NewJs/bootstrap.min.js"></script>
+<script src="js/NewJs/wow.min.js"></script>
+<script src="js/NewJs/jquery.backTop.min.js"></script>
+<script src="js/NewJs/waypoints.min.js"></script>
+<script src="js/NewJs/waypoints-sticky.min.js"></script>
+<script src="js/NewJs/owl.carousel.min.js"></script>
+<script src="js/NewJs/jquery.stellar.min.js"></script>
+<script src="js/NewJs/jquery.counterup.min.js"></script>
+<script src="js/NewJs/venobox.min.js"></script>
+<script src="js/NewJs/custom-scripts.js"></script>
+
+
 
         <!-- FOOTER -->
         <?php
@@ -289,4 +332,59 @@
 
 </body>
 
-</html>
+</html>       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+     

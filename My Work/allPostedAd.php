@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <head>
-
     <!-- Meta -->
     <meta charset="utf-8">
     <meta name="keywords" content="HTML5 Template" />

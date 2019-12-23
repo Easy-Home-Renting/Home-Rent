@@ -1,35 +1,53 @@
-<?php include('partials/db_connect.php'); ?>
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+
 <head>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="css\Bootstrap.css">
-    <link rel="stylesheet" href="css\Footer.css">
-    <link rel="stylesheet" href="css\shake.css">
-    <link rel="stylesheet" href="css\Dropdown.css">
-    <script src="js\javascript1.js"></script>
-    <script src="js\javascript2.js"></script>
-    <script src="js\javascript3.js"></script>
-    <meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Meta -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.min.css" > -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/css/bootstrap-datepicker.standalone.min.css" />
+    <title>Easy Home Renting</title>
 
-	<title> <b>Rental Data Information</b></title>
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-    </style>
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="http://event-theme.com/favicon.ico">
+     -->
+    <!-- Google Webfont -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900' rel='stylesheet'
+        type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,700,900' rel='stylesheet'
+        type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/NewCSS/bootstrap.min.css" />
+        <link href="css/NewCSS/font-awesome.min.css" rel="stylesheet" type="text/css" >
+        <link href="css/NewCSS/animate.css" rel="stylesheet" type="text/css" >
+        <link href="css/NewCSS/owl.carousel.css" rel="stylesheet" type="text/css" >
+        <link href="css/NewCSS/venobox.css" rel="stylesheet" type="text/css" >
+        <link rel="stylesheet" href="css/NewCSS/styles.css" />
+    <?php
+        include "Include/style.php"
+    ?>
+
 </head>
-<body>
+
+<body id="home2" class="home3">
+
+    <!-- PRELOADER -->
+    <div id="loader"></div>
+
+    <div class="body">
+
+        <!-- HEADER -->
+        <?php
+                include "Include/header.php"
+            ?>
+      
 	<div class="container" style="margin-top :30px">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
@@ -67,28 +85,6 @@
                                             <label for="phoneNo">Contact No: <span style="color: red">*</span></label>
                                             <input type="text" name="phoneNo" class="form-control" id="phoneNo" required>
                                         </div>
-
-                                       
-  
-                                    <!-- <div class="form-group">
-                                        <div class="input-group date" data-provide="datepicker">
-                                            <label for="vacancyFrom">Vacancy From: <span style="color: red">*</span></label>
-                                            <input type="date" name="vacancyFrom" class="form-control" id="vacancyFrom" required>
-                                            <div class="input-group-addon">
-                                                <span class="glyphicon glyphicon-th"></span>
-                                            </div>
-                                        </div>
-                                    </div> -->
-
-                                    <!-- <div class="input-group date" data-provide="datepicker">
-                                        <input type="text" name="vacancyFrom" class="form-control">
-                                        <div class="input-group-addon">
-                                            <span class="glyphicon glyphicon-th"></span>
-                                        </div>
-                                    </div> -->
-
-                                    <!-- <input style="width: 100%;" type="date" autocomplete="off" placeholder="Select Vacancy From" name="vacancyFrom" required> -->
-      
 
                                     <div class="form-group">
                                         <label for="vacancyFrom">Vacancy From: <span style="color: red">*</span></label>
@@ -133,8 +129,7 @@
                                             <option value="No">No</option> 
                                         </select>
                                     </div>
-                                    
-                                    
+
                                    
                                     <div class="form-group">
                                         <label for="liftAvail">Lift: <span style="color: red">*</span></label>
@@ -165,29 +160,112 @@
                                 </div>
                             </div>
                         </form>
-
+                        </div>
                         
                     </div>
                 </div>
+                </div>
+                </div>
+
+      
+
+<!-- TEAM SECTION END -->
+
+  <!-- Back To Top Button  -->
+
+  <!-- <a id="backTop">Back To Top</a> -->
+
+<script src="js/NewJs/jquery.min.js"></script>
+<script src="js/NewJs/bootstrap.min.js"></script>
+<script src="js/NewJs/wow.min.js"></script>
+<script src="js/NewJs/jquery.backTop.min.js"></script>
+<script src="js/NewJs/waypoints.min.js"></script>
+<script src="js/NewJs/waypoints-sticky.min.js"></script>
+<script src="js/NewJs/owl.carousel.min.js"></script>
+<script src="js/NewJs/jquery.stellar.min.js"></script>
+<script src="js/NewJs/jquery.counterup.min.js"></script>
+<script src="js/NewJs/venobox.min.js"></script>
+<script src="js/NewJs/custom-scripts.js"></script>
+
+
+
+        <!-- FOOTER -->
+        <?php
+            include "Include/footer.php"
+        ?>
+
+        <!-- FOOTER COPYRIGHT -->
+        <div class="footer-bottom" style=" background-color:#003459;">
+            <div class="container">
+                <p style="text-align: center;color:white;">Copyright 2019- Designed & Developed by <a href="#">Mohammed
+                        Didarul Islam</a> All rights reserved</p>
             </div>
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script> -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/locales/bootstrap-datepicker.en-GB.min.js" charset="UTF-8"></script>
+   
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
-            
-        <script>
-        $( document ).ready(function() {
-            $('.datepicker').datepicker({
-                format: 'YYYY-MM-DD'
-            });
-        });
-        </script>
+    <div id="backtotop"><i class="fa fa-chevron-up"></i></div>
+
+    <!-- Javascript -->
+    <?php
+        include "Include/script.php"
+    ?>
+
 </body>
-</html>
 
-<?php include('partials/db_close.php'); ?>
+</html>       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+     
